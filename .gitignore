@@ -9,3 +9,18 @@ desktop.ini
 
 # Logs
 *.log
+
+
+# Local development and credentials
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.vs/
+.vscode/
+build/
+*.user
